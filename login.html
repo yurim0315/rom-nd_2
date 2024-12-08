@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.png">
+  <title>rom&en</title>
+
+  <link rel="stylesheet" href="css/초기화.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="js/jquery-3.7.1.js"></script>
+  <!--  슬라이드 관련 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/login.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <!-- 상단바 -->
+    <header>
+      <div id="logo">
+        <div></div>
+        <div><a href="main.html"><img src="./img/logo.png" alt="logo"></a></div>
+        <div class="h-icon">
+          <a href="#">
+            <!-- <img src="./img/sns/하트.png" alt="하트"> -->
+          </a>
+          <a href="#">
+            <p class="num">1</p>
+            <!-- <img src="./img/sns/카트.png" alt="카트"> -->
+          </a>
+          <a href="#">
+            <!-- <img src="./img/sns/마이.png" alt="마이"> -->
+          </a>
+        </div>
+
+      </div>
+      <nav>
+        <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="main_menu">
+          <li><a href="#">BASE</a>
+            <ul class="sub_menu">
+              <li><a href="#">누 제로 쿠션</a></li>
+              <li><a href="#">블룸 인 커버핏 쿠션</a></li>
+              <li><a href="#">베어 워터 쿠션</a></li>
+              <li><a href="#">백미 라인</a></li>
+            </ul>
+          </li>
+          <li><a href="#">FACE</a>
+            <ul class="sub_menu">
+              <li><a href="#">쉬어 구슬 파우더</a></li>
+              <li><a href="#">베러 댄 치크</a></li>
+              <li><a href="#">베러 댄 컨투어</a></li>
+              <li><a href="#">시스루 베일라이터</a></li>
+            </ul>
+          </li>
+          <li><a href="#">EYE</a>
+            <ul class="sub_menu">
+              <li><a href="#">슬라이드 인 싱글</a></li>
+              <li><a href="#">베러 댄 아이즈</a></li>
+              <li><a href="#">베러 댄 팔레트</a></li>
+              <li><a href="#">베어 레이어 팔레트</a></li>
+            </ul>
+          </li>
+          <li><a href="#">LIP</a>
+            <ul class="sub_menu lip">
+              <li>
+                <ul class="glow">
+                  <p style="border-bottom: 1px solid black;">GLOW</p>
+                  <li><a href="#">더 쥬시 래스팅 틴트</a></li>
+                  <li><a href="#">쥬시 래스팅 틴트</a></li>
+                  <li><a href="#">글래스팅 멜팅 밤</a></li>
+                  <li><a href="#">베어 물 틴트</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="matte">
+                  <p style="border-bottom: 1px solid black;">MATTE</p>
+                  <li><a href="#">블러 퍼지 틴트</a></li>
+                  <li><a href="#">립 메이트 펜슬</a></li>
+                  <li><a href="#">밀크 티 벨벳 틴트</a></li>
+                  <li class="matte_last"><a href="#">제로 매트 립스틱</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">NAIL</a>
+            <ul class="sub_menu">
+              <li><a href="#">무드 페블 하드너</a></li>
+              <li><a href="#">무드 페블 네일</a></li>
+              <li><a href="#">네일 리무버</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ACCs</a>
+            <ul class="sub_menu">
+              <li><a href="#">4구 공용기</a></li>
+              <li><a href="#">브러쉬</a></li>
+              <li><a href="#">뷰러</a></li>
+              <li><a href="#">퍼프</a></li>
+            </ul>
+          </li>
+          <li><a href="#">COMMUNITY</a>
+            <ul class="sub_menu">
+              <li><a href="#">EVENT</a></li>
+              <li><a href="#">NOTICE</a></li>
+              <li><a href="#">Q&A</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">OPEN OFFICE</a></li>
+              <li><a href="#">케미프로젝트</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- 모바일 메뉴 -->
+
+    </header>
+
+    <!-- 메인 -->
+    <div id="loginMain">
+      <!-- 내정보 -->
+      <div class="l-content0">
+        <!-- 프로필 이미지 -->
+        <div class="con0_box">
+
+          <div class="profile_box">
+            <img class="profile" src="./img/icon/Profile.png" alt="프로필아이콘">
+          </div>
+          <div class="center">
+            <!-- 이름, 배송지 -->
+            <h1>반가워요 ㅇㅇㅇ님,
+              회원님의 등급은 <span style="color: #fb91a3;">롬메이트</span> 입니다.</h1>
+          </div>
+
+          <!-- 버튼 -->
+          <div class="button_box">
+            <img class="button" src="./img/icon/more.png" alt="더보기버튼">
+          </div>
+        </div>
+
+
+        <div class="con0_iconbox">
+          <ul>
+            <li><a href="#">
+                <img src="./img/icon/Accumulation.png" alt="구매적립">
+                <p>구매적립</p>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/Birthday_coupon.png" alt="생일쿠폰">
+                <p>생일쿠폰</p>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/Free_shipping.png" alt="무료배송">
+                <p>무료배송쿠폰</p>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/bestreview.png" alt="리뷰">
+                <p>리뷰이벤트</p>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- 반응형 -->
+      <div class="l-content0_M">
+        <!-- 프로필 이미지 -->
+        <div class="con0_box_M">
+
+          <div class="profile_box_M">
+            <img class="profile" src="./img/icon/Profile.png" alt="프로필아이콘">
+          </div>
+          <div class="center_M">
+            <!-- 이름, 배송지 -->
+            <h1>반가워요 ㅇㅇㅇ님,<br>
+              회원님의 등급은 <span style="color: #fb91a3;">롬메이트</span> 입니다.</h1>
+          </div>
+
+
+        </div>
+
+
+        <div class="con0_iconbox_M">
+          <ul>
+            <li><a href="#">
+                <img src="./img/icon/Accumulation.png" alt="구매적립">
+                <p>구매적립</p>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/Birthday_coupon.png" alt="생일쿠폰">
+                <p>생일쿠폰</p>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/Free_shipping.png" alt="무료배송">
+                <p>무료배송쿠폰</p>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/bestreview.png" alt="리뷰">
+                <p>리뷰이벤트</p>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="l-content1">
+        <!-- ========나의 주문======== -->
+        <div class="con1_top">
+          <div>
+            <h1>나의 주문 <span style="color: #fb91a3;">|</span></h1>
+            <p>최근 3개월 주문</p>
+          </div>
+          <ul>
+            <li><a href="#">
+                <h1>0</h1>
+                <h6>입금전</h6>
+              </a></li>
+            <li><a href="#">
+                <h1>0</h1>
+                <h6>배송준비</h6>
+              </a></li>
+            <li><a href="#">
+                <h1>0</h1>
+                <h6>배송중</h6>
+              </a></li>
+            <li><a href="#">
+                <h1>0</h1>
+                <h6>배송완료</h6>
+              </a></li>
+          </ul>
+        </div>
+        <!-- =======나의 포인트======== -->
+        <div class="con1_bott">
+          <div>
+            <h1>나의 포인트 <span style="color: #fb91a3;">|</span></h1>
+          </div>
+          <ul>
+            <li><a href="#">
+                <img src="./img/icon/Deposit2.png" alt="적립금">
+                <h6>적립금</h6>
+                <h1>0</h1>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/coupon2.png" alt="쿠폰아이콘">
+                <h6>쿠폰</h6>
+                <h1>0</h1>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/point2.png" alt="포인트아이콘">
+                <h6>포인트</h6>
+                <h1>0</h1>
+              </a></li>
+            <li><a href="#">
+                <img src="./img/icon/Savings2.png" alt="예치금아이콘">
+                <h6>예치금</h6>
+                <h1>0</h1>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="l-content2 ">
+        <!-- ========최근 본 상품========= -->
+        <div class="con2_box">
+          <div class="con2_textbox">
+            <h1>최근 본 상품 <span style="color: #fb91a3;">|</span></h1>
+            <a href="#"><img src="./img/icon/arrow.png" alt="arrow"></a>
+          </div>
+          <!-- 스와이퍼 -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products01.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 베러 댄 치크 #블랙스펙트럼 / B03블랙밤</a></li>
+                  <li><a href="#">9,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products02.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 시스루 베일라이터 / 02문키스드베일</a></li>
+                  <li><a href="#">6,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products03.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 쉬어 틴티드 스틱 / 02버니홉</a></li>
+                  <li><a href="#">14,000원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products04.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  </li>
+                  <li><a href="#">롬앤 제로 매트 립스틱 #뉴트럴무드 / 22모브빈즈</a></li>
+                  <li><a href="#">12,000원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products05.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 베러 댄 쉐입 01 오트그레인</a></li>
+                  <li><a href="#">7,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products06.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 더 유니버스 리퀴드 글리터</a></li>
+                  <li><a href="#">7,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products07.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 베러 댄 아이즈 #블랙스펙트럼 / B03 글리츠 인 블랙</a></li>
+                  <li><a href="#">16,000원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products08.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 베러 댄 팔레트 #더스티온더누드 / 05 쉐이드 앤 섀도우 가든</a></li>
+                  <li><a href="#">25,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products09.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">쉬어 구슬파우더 #코덕MADE / 04 아이스 베일 </a></li>
+                  <li><a href="#">12,000원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Recently_Viewed_Products/Recently_Viewed_Products10.jpg"
+                        alt="롬앤베러댄치크#블랙스펙트럼_b03블랙밤"></a>
+                  </li>
+                  <li><a href="#">롬앤 슬라이드 인 싱글 / G03 버니 챗</a></li>
+                  <li><a href="#">5,900원</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====관심상품===== -->
+        <div class="con2_box">
+          <div class="con2_textbox">
+            <h1>관심상품 <span style="color: #fb91a3;">|</span></h1>
+            <a href="#"><img src="./img/icon/arrow.png" alt="arrow"></a>
+          </div>
+          <!-- 스와이퍼 -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_01.jpg"
+                        alt="롬앤쥬시래스팅틴트펑키멜론"></a></li>
+                  <li><a href="#">[COHA] 쥬시 래스팅 틴트 펑키 멜론 / 펑키 멜론</a></li>
+                  <li><a href="#">9,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_02.jpg"
+                        alt="롬앤글래스팅멜팅밤#더스티온더누드14디어애플"></a>
+                  </li>
+                  <li><a href="#">롬앤 글래스팅 멜팅 밤 #더스티온더누드 / 14 디어 애플</a></li>
+                  <li><a href="#">13,000원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_03.jpg"
+                        alt="롬앤시스루베일라이터02문키스드베일"></a></li>
+                  <li><a href="#">롬앤 누 제로 쿠션 #블랙스펙트럼 / 04 베이지23</a></li>
+                  <li><a href="#">16,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"> <img src="./img/Products_of_Interest/Products_of_Interest_04.jpg"
+                        alt="롬앤블러퍼지틴트_에너제틱브라이트_09코랄쥬빌레"></a>
+                  </li>
+                  <li><a href="#">롬앤 블러 퍼지 틴트 #에너제틱 브라이트 / 09 코랄 쥬빌레</a></li>
+                  <li><a href="#">13,000원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_05.jpg"
+                        alt="베어워터쿠션02_퓨어21_리필"></a></li>
+                  <li><a href="#">롬앤 베어 워터쿠션 리필 / 02_퓨어21 리필</a></li>
+                  <li><a href="#">14,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_06.jpg"
+                        alt="베어워터쿠션02_퓨어21"></a></li>
+                  <li><a href="#">롬앤 베어 워터 쿠션 / 02 퓨어21</a></li>
+                  <li><a href="#">24,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_07.jpg"
+                        alt="블룸인커버핏쿠션_19퓨어"></a></li>
+                  <li><a href="#">롬앤 블룸 인 커버핏 쿠션 / 19 퓨어</a></li>
+                  <li><a href="#">16,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_08.jpg"
+                        alt="제로선클린_02톤업"></a></li>
+                  <li><a href="#">롬앤 제로 선 클린 / 02 톤업</a></li>
+                  <li><a href="#">7,900원</a></li>
+                </ul>
+              </div>
+              <div class="swiper-slide slide1">
+                <ul id="slide1_ul">
+                  <li><a href="#"><img src="./img/Products_of_Interest/Products_of_Interest_09.jpg" alt="백미노세범파우더"></a>
+                  </li>
+                  <li><a href="#">롬앤 백미 노세범 파우더</a></li>
+                  <li><a href="#">6,900원</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="l-content3">
+        <div class="con3_textbox">
+          <h1>나의 활동내역 <span style="color: #fb91a3;">|</span></h1>
+          <a href="#">
+            <img src="./img/icon/Add.png" alt="펼치기">
+          </a>
+        </div>
+        <div class="activeBox">
+          <ul>
+            <li><a href="#">
+                <h1>주문 내역</h1>
+                <img src="./img/icon/arrow.png" alt="arrow">
+              </a></li>
+            <li><a href="#">
+                <h1>리뷰 작성</h1>
+                <img src="./img/icon/arrow.png" alt="arrow">
+              </a></li>
+            <li><a href="#">
+                <h1>1:1 문의 내역</h1>
+                <img src="./img/icon/arrow.png" alt="arrow">
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 하단 -->
+    <footer>
+      <div class="footer_logo">
+        <img src="img/logo_footer.png" alt="logo">
+      </div>
+      <div class="footer_add">
+        <p style="font-weight: bold;">(주)아이패밀리에스씨</p>
+        <p>서울특별시 송파구 동남로 122 (문정동) COLLECTED 빌딩<br>
+          고객센터 : 1670-2238 AM 10:00~ PM 17:00 (점심시간 : 12:20~13:30)<br>
+          사업자등록번호 : 120-86-00633 <br>
+          통신 판매업 신고 번호 : 제2022-서울송파-1690호 <br>
+          대표 : 김태욱,김성현</p>
+        <p style="margin-top: 10px;">© 2023. iFamilySC Co., Ltd. all rights reserved.</p>
+      </div>
+      <div class="footer_sns">
+        <ul>
+          <li><a href="https://www.instagram.com/romandyou/"><img src="img/instargram2.png" alt="인스타"></a></li>
+          <li><a href="https://www.youtube.com/@romand8164"><img src="img/youtube.png" alt="유튜브"></a></li>
+          <li><a href="https://www.facebook.com/romandyou/videos/?_rdr"><img src="img/facebook.png" alt="페이스북"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- up -->
+  <div id="up">
+    <a href="#wrap"><img src="img/up.jpg" alt="로고up"></a>
+  </div>
+</body>
+
+</html>

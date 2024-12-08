@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 폰트 */
+@font-face {
+  font-family: 'IAMAPLAYER';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #edced4;
+}
+#wrpa {
+  width: 100%;
+  height: 100vh;
+}
+.top_title img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 150px;
+}
+
+.title {
+  font-family: 'IAMAPLAYER';
+  text-align: center;
+  font-size: 70px;
+}
+
+/* 슬라이드 - 플러그인 */
+.swiper {
+  width: 700px;
+  margin-top: 40px;
+}
+
+.swiper-slide {
+  margin: 0 auto;
+}
+
+.swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.swiper-pagination {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.swiper-pagination-bullet {
+  background: rgb(255, 158, 158) !important;
+}
+
+/* 1page_popup */
+#boox1 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}
+
+#boox1 h1 {
+  position: absolute;
+  top: 25px;
+  right: 550px;
+  color: #edced4;
+  font-size: 60px;
+}
+#boox1 h1:hover {
+  color: rgb(176, 111, 111);
+}
+
+#boox1>ul {
+  margin: 50px auto;
+  width: 700px;
+  height: 90%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#boox1>ul>li>img {
+  display: block;
+  max-width: 100%;
+}
+.scroll {
+  border-top-left-radius: 30px;
+}
+/* 스크롤 */
+.scroll::-webkit-scrollbar {
+  width: 20px
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 158, 158);
+  border-radius: 5px;
+  background-clip: padding-box
+}
+.scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(176, 111, 111);
+}
+
+.scroll::-webkit-scrollbar-track {
+  background-color: #ffe6e6;
+}
+
+
+/* 반응형 사이즈 */
+/* 폰 */
+@media screen and (min-width:350px) and (max-width: 430px) {
+ .top_title {
+  margin-top: 20%;
+ }
+ 
+ 
+  /* 슬라이드 - 플러그인 */
+.swiper {
+  width: 350px;
+  margin-top: 20%;
+}
+
+.swiper-slide img {
+  width: 250px;
+}
+
+/* 1page_popup */
+#boox1 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+
+#boox1 h1 {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  color: #edced4;
+  font-size: 30px;
+}
+#boox1 h1:hover {
+  color: rgb(176, 111, 111);
+}
+
+#boox1>ul {
+  margin: 50px auto;
+  width: 90%;
+  height: 90%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.scroll>li>img {
+  display: block;
+  width: 100%;
+}
+.scroll {
+  border-top-left-radius: 30px;
+}
+
+}

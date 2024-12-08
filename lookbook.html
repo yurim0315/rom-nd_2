@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/lookbook.css">
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="js/lookbook.js"></script>
+  <!-- 플러그인 관련 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <title>rom&en</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <div class="top_title">
+      <a href="main.html"><img src="img/logo.png" alt="logo"></a>
+      <p class="title"><span style="color: #fb91a3;">LOOK</span>BOOK</p>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide book1">
+          <img src="img_lookBook/lookBook_01.jpg" alt="lookBook_01">
+        </div>
+        <div class="swiper-slide">
+          <img src="img_lookBook/lookBook_02.jpg" alt="lookBook_02">
+        </div>
+        <div class="swiper-slide">
+          <img src="img_lookBook/lookBook_03.jpg" alt="lookBook_03">
+        </div>
+        <div class="swiper-slide">
+          <img src="img_lookBook/lookBook_04.jpg" alt="lookBook_04">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 500,
+          modifier: 2,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+
+    <div id="boox1">
+      <a href="#">
+        <h1>X</h1>
+      </a>
+      <ul class="scroll">
+        <li><img src="img_lookBook/lookBook_01-1.jpg" alt="img/lookBook_01-1"></li>
+        <li><img src="img_lookBook/lookBook_01-2.jpg" alt="img/lookBook_01-1"></li>
+        <li><img src="img_lookBook/lookBook_01-3.jpg" alt="img/lookBook_01-1"></li>
+        <li><img src="img_lookBook/lookBook_01-4.jpg" alt="img/lookBook_01-1"></li>
+        <li><img src="img_lookBook/lookBook_01-5.jpg" alt="img/lookBook_01-1"></li>
+        <li><img src="img_lookBook/lookBook_01-6.jpg" alt="img/lookBook_01-1"></li>
+        <li><img src="img_lookBook/lookBook_01-7.jpg" alt="img/lookBook_01-1"></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>
