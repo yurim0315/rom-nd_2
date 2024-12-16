@@ -69,17 +69,17 @@ $(function () {
     // 이미지 변경
 
     $('#new1').mouseover(function () {
-      $(this).attr('src', 'img/product/new1_1.JPG ')
+      $(this).attr('src', 'img/product/new1_1.jpg')
     })
     $('#new1').mouseout(function () {
-      $(this).attr('src', 'img/product/new1.JPG ')
+      $(this).attr('src', 'img/product/new1.jpg')
     })
 
     $('#new2').mouseover(function () {
       $(this).attr('src', 'img/product/new2_1.gif')
     })
     $('#new2').mouseout(function () {
-      $(this).attr('src', 'img/product/new2.JPG ')
+      $(this).attr('src', 'img/product/new2.jpg')
     })
 
 
@@ -87,47 +87,47 @@ $(function () {
       $(this).attr('src', 'img/product/new3_1.gif')
     })
     $('#new3').mouseout(function () {
-      $(this).attr('src', 'img/product/new3.JPG ')
+      $(this).attr('src', 'img/product/new3.jpg')
     })
 
 
     $('#new4').mouseover(function () {
-      $(this).attr('src', 'img/product/new4_1.JPG ')
+      $(this).attr('src', 'img/product/new4_1.jpg')
     })
     $('#new4').mouseout(function () {
-      $(this).attr('src', 'img/product/new4.JPG ')
+      $(this).attr('src', 'img/product/new4.jpg')
     })
 
 
     $('#best1').mouseover(function () {
-      $(this).attr('src', 'img/product/best1_1.JPG ')
+      $(this).attr('src', 'img/product/best1_1.jpg')
     })
     $('#best1').mouseout(function () {
-      $(this).attr('src', 'img/product/best1.JPG ')
+      $(this).attr('src', 'img/product/best1.jpg')
     })
 
 
     $('#best2').mouseover(function () {
-      $(this).attr('src', 'img/product/best2_1.JPG ')
+      $(this).attr('src', 'img/product/best2_1.jpg')
     })
     $('#best2').mouseout(function () {
-      $(this).attr('src', 'img/product/best2.JPG ')
+      $(this).attr('src', 'img/product/best2.jpg')
     })
 
 
     $('#best3').mouseover(function () {
-      $(this).attr('src', 'img/product/best3_1.JPG ')
+      $(this).attr('src', 'img/product/best3_1.jpg')
     })
     $('#best3').mouseout(function () {
-      $(this).attr('src', 'img/product/best3.JPG ')
+      $(this).attr('src', 'img/product/best3.jpg')
     })
 
 
     $('#best4').mouseover(function () {
-      $(this).attr('src', 'img/product/best4_1.JPG ')
+      $(this).attr('src', 'img/product/best4_1.jpg')
     })
     $('#best4').mouseout(function () {
-      $(this).attr('src', 'img/product/best4.JPG ')
+      $(this).attr('src', 'img/product/best4.jpg')
     })
 
     // 이벤트 페이지 호버
